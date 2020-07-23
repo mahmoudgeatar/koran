@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.11" height="19.977" viewBox="0 0 19.11 19.977">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.383" y1="0.25" x2="0.899" y2="1.856" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#80632e"/>
+      <stop offset="1" stop-color="#b39e6e"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b4a071"/>
+      <stop offset="1" stop-color="#ab9562"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b19b68"/>
+      <stop offset="1" stop-color="#8a7442"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.383" y1="0.25" x2="0.899" y2="1.856" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6cb54e"/>
+      <stop offset="1" stop-color="#116b7b"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.424" y1="-2.07" x2="0.546" y2="2.493" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6cb54e"/>
+      <stop offset="1" stop-color="#18501e"/>
+    </linearGradient>
+    <filter id="iconfinder_masjid_dome_3_2303252" x="0" y="7.425" width="19.109" height="11.29" filterUnits="userSpaceOnUse">
+      <feOffset dy="-1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-6" x1="0.383" y1="0.25" x2="0.899" y2="1.856" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fdbc39"/>
+      <stop offset="1" stop-color="#ef9606"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="0.382" y1="2.954" x2="0.369" y2="-0.121" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#252624"/>
+      <stop offset="1" stop-color="#a28c59"/>
+    </linearGradient>
+    <filter id="iconfinder_masjid_dome_3_2303252-2" x="0.03" y="7.392" width="19.079" height="10.091" filterUnits="userSpaceOnUse">
+      <feOffset dy="-1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="madinah" transform="translate(-320.316 -254.7)">
+    <g id="Group_1205" data-name="Group 1205" transform="translate(330.821 254.7)">
+      <path id="Union_2" data-name="Union 2" d="M2.187,9.781H.234V4.629H0V4.423H.214V2.975L.142,2.942A1.386,1.386,0,0,1,.113,2.4,1.8,1.8,0,0,1,1.141,1.178.106.106,0,0,1,1.1,1.066.089.089,0,0,1,1.17.987.072.072,0,0,1,1.114.913c0-.034.049-.913.049-.913h.042s.04.9.032.93a.065.065,0,0,1-.06.058.088.088,0,0,1,.082.078.106.106,0,0,1-.046.112A1.8,1.8,0,0,1,2.241,2.4a1.386,1.386,0,0,1-.029.537l-.057.026V4.423h.231v.206h-.2V9.78h0ZM1.221,7.147a.415.415,0,0,0-.451.405V8.6h.885V7.552a.427.427,0,0,0-.1-.285.43.43,0,0,0-.327-.12h0Zm0-2.341a.41.41,0,0,0-.45.4V6.248h.885V5.206a.412.412,0,0,0-.1-.28.438.438,0,0,0-.329-.121Zm.307-1.271v.69h.241v-.69s-.029-.166-.121-.167h0C1.556,3.368,1.528,3.533,1.527,3.535Zm-.563,0v.69h.477v-.69a.312.312,0,0,0-.069-.2A.22.22,0,0,0,1.21,3.27h0C.969,3.27.965,3.533.965,3.535Zm-.348,0v.69H.865v-.69S.833,3.37.737,3.368h0C.641,3.368.617,3.533.617,3.535ZM1.177.988h0Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Path_3763" data-name="Path 3763" d="M-41.084-649.018h13.839l-1.39-5.387h-11Z" transform="translate(363.973 919.544)" stroke="#e9e4d1" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.2" fill="url(#linear-gradient-2)"/>
+    <path id="Path_3767" data-name="Path 3767" d="M-42.111-645.866v4.051h13.839v-4.051Z" transform="translate(365 916.392)" stroke="#e9e4d1" stroke-linejoin="round" stroke-width="0.2" fill="url(#linear-gradient-3)"/>
+    <path id="iconfinder_masjid_dome_3_2303252-3" data-name="iconfinder_masjid_dome_3_2303252" d="M123.728,72.143a.288.288,0,0,1-.288-.288c0-.133.2-2.71.2-2.71h.193s.2,2.647.169,2.776a.285.285,0,0,1-.278.22Zm4.878,5.433c-.516-2.857-3.85-4.356-4.715-4.7a.385.385,0,1,0-.326,0c-.865.347-4.2,1.846-4.715,4.7a4.461,4.461,0,0,0,.135,2.063,14,14,0,0,0,4.744,1.014h0a14,14,0,0,0,4.744-1.014,4.489,4.489,0,0,0,.133-2.062Z" transform="translate(206.137 189.263)" fill="url(#linear-gradient-4)"/>
+    <g transform="matrix(1, 0, 0, 1, 320.32, 254.7)" filter="url(#iconfinder_masjid_dome_3_2303252)">
+      <path id="iconfinder_masjid_dome_3_2303252-4" data-name="iconfinder_masjid_dome_3_2303252" d="M127.479,81.766a14.59,14.59,0,0,1-3.527.566,13.208,13.208,0,0,1-3.461-.49s-1.382-.441-1.478-.428-.158.28-.118.6a1.018,1.018,0,0,0,.279.676,4.811,4.811,0,0,0,1.272.473,15.344,15.344,0,0,0,3.527.54h0a15.344,15.344,0,0,0,3.527-.54,5.621,5.621,0,0,0,1.275-.473,1.008,1.008,0,0,0,.207-.651c.026-.319.007-.6-.1-.625A13.567,13.567,0,0,0,127.479,81.766Z" transform="translate(-114.38 -68.49)" fill="url(#linear-gradient-5)"/>
+    </g>
+    <path id="iconfinder_masjid_dome_3_2303252-5" data-name="iconfinder_masjid_dome_3_2303252" d="M125.237,72.143a.288.288,0,0,1-.288-.288c0-.133.2-2.71.2-2.71h.193s.2,2.647.169,2.776a.285.285,0,0,1-.278.22Zm.163.73a.385.385,0,1,0-.326,0C124.209,73.219,126.265,73.22,125.4,72.873Z" transform="translate(204.628 189.263)" fill="url(#linear-gradient-6)"/>
+    <g transform="matrix(1, 0, 0, 1, 320.32, 254.7)" filter="url(#iconfinder_masjid_dome_3_2303252-2)">
+      <path id="iconfinder_masjid_dome_3_2303252-6" data-name="iconfinder_masjid_dome_3_2303252" d="M127.332,80.5a14.119,14.119,0,0,1-3.35.517,13.4,13.4,0,0,1-3.306-.446l-1.585-.434s-.141.021-.164.07.07.129.07.129l1.632.411a11.678,11.678,0,0,0,6.7-.07s1.452-.366,1.573-.376.056-.078.082-.106.03-.08-.082-.082S127.332,80.5,127.332,80.5Z" transform="translate(-114.39 -67.22)" opacity="0.45" fill="url(#linear-gradient-7)"/>
+    </g>
+    <path id="Path_3769" data-name="Path 3769" d="M-42.111-645.866v.92h1.928v-.92Z" transform="translate(366.503 919.522)" fill="#a59161" stroke="#9b875a" stroke-linejoin="round" stroke-width="0.2" opacity="0.94"/>
+    <path id="Path_3770" data-name="Path 3770" d="M-42.111-645.866v.92h1.928v-.92Z" transform="translate(368.005 919.522)" fill="#a59161" stroke="#9b875a" stroke-linejoin="round" stroke-width="0.2" opacity="0.94"/>
+    <path id="Path_3771" data-name="Path 3771" d="M-42.111-645.866v.92h1.928v-.92Z" transform="translate(369.508 919.522)" fill="#a59161" stroke="#9b875a" stroke-linejoin="round" stroke-width="0.2" opacity="0.94"/>
+    <path id="Path_3772" data-name="Path 3772" d="M-42.111-645.866v.92h1.928v-.92Z" transform="translate(371.01 919.522)" fill="#a59161" stroke="#9b875a" stroke-linejoin="round" stroke-width="0.2" opacity="0.94"/>
+    <path id="Path_3773" data-name="Path 3773" d="M-42.111-645.866v.92h1.928v-.92Z" transform="translate(372.513 919.522)" fill="#a59161" stroke="#9b875a" stroke-linejoin="round" stroke-width="0.2" opacity="0.94"/>
+    <path id="Path_3774" data-name="Path 3774" d="M-42.111-645.866v.92h1.928v-.92Z" transform="translate(374.016 919.522)" fill="#a59161" stroke="#9b875a" stroke-linejoin="round" stroke-width="0.2" opacity="0.94"/>
+    <path id="Path_3775" data-name="Path 3775" d="M-42.111-645.866v.92h1.928v-.92Z" transform="translate(375.518 919.522)" fill="#a59161" stroke="#9b875a" stroke-linejoin="round" stroke-width="0.2" opacity="0.94"/>
+    <path id="Path_3776" data-name="Path 3776" d="M-42.111-645.866v.92h1.68v-.92Z" transform="translate(377.021 919.522)" fill="#a59161" stroke="#9b875a" stroke-linejoin="round" stroke-width="0.2" opacity="0.94"/>
+    <path id="Path_3777" data-name="Path 3777" d="M-42.111-645.866v.92h1.241v-.92Z" transform="translate(365.189 919.522)" fill="#a59161" stroke="#9b875a" stroke-linejoin="round" stroke-width="0.2" opacity="0.94"/>
+  </g>
+</svg>
