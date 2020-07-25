@@ -115,8 +115,8 @@ class _DetailsState extends State<Details> {
                       child: Image.asset(
                         'image/capture.png',
                         fit: BoxFit.cover,
-                        height: MediaQuery.of(context).size.height,
-                        width: MediaQuery.of(context).size.width,
+                        height: double.infinity,
+                        width: double.infinity,
                       ),
                     ),
                   ),
