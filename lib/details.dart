@@ -49,11 +49,11 @@ class _DetailsState extends State<Details> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-          child: Column(
-            children: <Widget>[
-              Row(
+        child: Column(
+          children: <Widget>[
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 16),
+              child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
                   GestureDetector(
@@ -101,88 +101,91 @@ class _DetailsState extends State<Details> {
                   ),
                 ],
               ),
-              //aya content
-              Expanded(
-                child: GestureDetector(
-                  onTap: () {
-                    _contentdialog();
-                  },
-                  child: Container(
-                    width: MediaQuery.of(context).size.width,
-                    alignment: Alignment.center,
-                    decoration: BoxDecoration(
-                      image: DecorationImage(
-                        image: AssetImage('image/capture.png'),
+            ),
+            //aya content
+            Expanded(
+              child: GestureDetector(
+                onTap: () {
+                  _contentdialog();
+                },
+                child: Container(
+                  child: Center(
+                    child: Padding(
+                      padding: const EdgeInsets.only(top: 8),
+                      child: Image.asset(
+                        'image/capture.png',
                         fit: BoxFit.cover,
+                        height: MediaQuery.of(context).size.height,
+                        width: MediaQuery.of(context).size.width,
                       ),
                     ),
                   ),
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.only(bottom: 4),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: <Widget>[
-                    GestureDetector(
-                      onTap: () {
-                        _dialog();
-                      },
-                      child: Container(
-                        width: 78,
-                        height: 36,
-                        decoration: BoxDecoration(
-                            color: buttoncolor,
-                            borderRadius: BorderRadius.circular(25),
-                            boxShadow: [
-                              BoxShadow(
-                                color: devider,
-                                blurRadius: 6,
-                                offset: Offset(0, 3),
-                              ),
-                            ]),
-                        child: Center(
-                          child: Text(
-                            '3',
-                            style: TextStyle(
-                              color: brown,
-                              fontFamily: 'Sukar-bold',
-                              fontSize: 16,
+            ),
+            Padding(
+              padding: EdgeInsets.fromLTRB(16, 8, 16, 12),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: <Widget>[
+                  GestureDetector(
+                    onTap: () {
+                      _dialog();
+                    },
+                    child: Container(
+                      width: 78,
+                      height: 36,
+                      decoration: BoxDecoration(
+                          color: buttoncolor,
+                          borderRadius: BorderRadius.circular(25),
+                          boxShadow: [
+                            BoxShadow(
+                              color: devider,
+                              blurRadius: 6,
+                              offset: Offset(0, 3),
                             ),
+                          ]),
+                      child: Center(
+                        child: Text(
+                          '3',
+                          style: TextStyle(
+                            color: brown,
+                            fontFamily: 'Sukar-bold',
+                            fontSize: 16,
                           ),
                         ),
                       ),
                     ),
-                    GestureDetector(
-                      onTap: () {
-                        _moredialog();
-                      },
-                      child: Container(
-                        width: 50,
-                        height: 50,
-                        padding: EdgeInsets.all(10),
-                        decoration: BoxDecoration(
-                            color: buttoncolor,
-                            borderRadius: BorderRadius.circular(50),
-                            boxShadow: [
-                              BoxShadow(
-                                color: devider,
-                                blurRadius: 6,
-                                offset: Offset(0, 3),
-                              ),
-                            ]),
-                        child: Image.asset(
-                          'image/moreb.png',
-                          width: 20,
-                          height: 20,
-                        ),
+                  ),
+                  GestureDetector(
+                    onTap: () {
+                      _moredialog();
+                    },
+                    child: Container(
+                      width: 50,
+                      height: 50,
+                      padding: EdgeInsets.all(10),
+                      decoration: BoxDecoration(
+                          color: buttoncolor,
+                          borderRadius: BorderRadius.circular(50),
+                          boxShadow: [
+                            BoxShadow(
+                              color: devider,
+                              blurRadius: 6,
+                              offset: Offset(0, 3),
+                            ),
+                          ]),
+                      child: Image.asset(
+                        'image/moreb.png',
+                        width: 20,
+                        height: 20,
                       ),
                     ),
-                  ],
-                ),
+                  ),
+                ],
               ),
-            ],
-          ),
+            ),
+          ],
         ),
       ),
     );
