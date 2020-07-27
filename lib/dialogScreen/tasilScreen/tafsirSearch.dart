@@ -60,7 +60,7 @@ class _TafsirSearchState extends State<TafsirSearch> {
               Text(
                 'بحث بالسورة أو الجزء',
                 style: TextStyle(
-                    fontSize: 22, fontFamily: 'Sukar-black', color: teal),
+                    fontSize: 22, color: Color(0xff4EA1B5)),
               ),
               //search bar
               Container(
@@ -68,7 +68,7 @@ class _TafsirSearchState extends State<TafsirSearch> {
                 child: Container(
                   decoration: BoxDecoration(
                       color: Colors.transparent,
-                      border: Border.all(color: teal, width: 1),
+                      border: Border.all(color: Color(0xff4EA1B5), width: 1),
                       borderRadius: BorderRadius.circular(30)),
                   height: 40,
                   width: MediaQuery.of(context).size.width * .6,
@@ -81,7 +81,7 @@ class _TafsirSearchState extends State<TafsirSearch> {
                     },
                     style: TextStyle(
                       fontSize: 14,
-                      color: textGray,
+                      color: Color(0xff707070),
                     ),
                     decoration: InputDecoration(
                         suffixIcon: !selectCountry.onChange
@@ -105,7 +105,7 @@ class _TafsirSearchState extends State<TafsirSearch> {
                                 },
                                 child: Icon(
                                   Icons.clear,
-                                  color: teal,
+                                  color: Color(0xff4EA1B5),
                                   size: 25,
                                 ),
                               ),
@@ -114,20 +114,19 @@ class _TafsirSearchState extends State<TafsirSearch> {
                         hintText: "إبحث عن سورة أو جزء",
                         hintStyle: TextStyle(
                           fontSize: 14,
-                          color: textGray,
-                          fontFamily: 'sukar-bold',
+                          color: Color(0xff707070),
                         ),
                         focusedBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(30),
-                          borderSide: BorderSide(color: teal, width: 1),
+                          borderSide: BorderSide(color: Color(0xff4EA1B5), width: 1),
                         ),
                         enabledBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(30),
-                          borderSide: BorderSide(color: teal, width: 1),
+                          borderSide: BorderSide(color: Color(0xff4EA1B5), width: 1),
                         ),
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(35),
-                          borderSide: BorderSide(color: teal, width: 1),
+                          borderSide: BorderSide(color: Color(0xff4EA1B5), width: 1),
                         )),
                   ),
                 ),
@@ -165,8 +164,7 @@ class _TafsirSearchState extends State<TafsirSearch> {
                                           '1',
                                           style: TextStyle(
                                             fontSize: 14,
-                                            fontFamily: 'kf',
-                                            color: brown,
+                                            color: Color(0xffB06544),
                                           ),
                                         ),
                                       ),
@@ -180,8 +178,7 @@ class _TafsirSearchState extends State<TafsirSearch> {
                                           'سورة الأعراف',
                                           style: TextStyle(
                                             fontSize: 20,
-                                            fontFamily: 'dt',
-                                            color: brown,
+                                            color: Color(0xffB06544),
                                             fontWeight: FontWeight.bold,
                                           ),
                                         ),
@@ -194,16 +191,14 @@ class _TafsirSearchState extends State<TafsirSearch> {
                                               '206',
                                               style: TextStyle(
                                                   fontSize: 16,
-                                                  fontFamily: 'Sukar-bold',
-                                                  color: textGray),
+                                                  color: Color(0xff707070)),
                                             ),
                                             SizedBox(width: 4),
                                             Text(
                                               'أية',
                                               style: TextStyle(
                                                   fontSize: 14,
-                                                  fontFamily: 'cairo',
-                                                  color: textGray),
+                                                  color: Color(0xff707070)),
                                             ),
                                           ],
                                         ),
@@ -215,15 +210,14 @@ class _TafsirSearchState extends State<TafsirSearch> {
                                   'الجزء الأول',
                                   style: TextStyle(
                                       fontSize: 14,
-                                      fontFamily: 'cairo',
-                                      color: textGray),
+                                      color: Color(0xff707070)),
                                 ),
                               ],
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               crossAxisAlignment: CrossAxisAlignment.end,
                             ),
                             Divider(
-                              color: devider,
+                              color: Color(0xffBFBFBF),
                             ),
                           ],
                         ),
@@ -265,9 +259,8 @@ class _TafsirSearchState extends State<TafsirSearch> {
                       Text(
                         'الرجاء إختيار رقم الآية',
                         style: TextStyle(
-                          color: dialgtext,
+                          color: Color(0xff191818),
                           fontSize: 16,
-                          fontFamily: 'Sukar-bold',
                         ),
                       ),
                       Padding(
@@ -278,9 +271,8 @@ class _TafsirSearchState extends State<TafsirSearch> {
                             Text(
                               'من أية رقم',
                               style: TextStyle(
-                                color: dialgtext,
+                                color: Color(0xff191818),
                                 fontSize: 16,
-                                fontFamily: 'Sukar-reg',
                               ),
                             ),
                             Container(
@@ -288,9 +280,9 @@ class _TafsirSearchState extends State<TafsirSearch> {
                               height: 32,
                               width: 93,
                               decoration: BoxDecoration(
-                                border: Border.all(color: brown, width: 1),
+                                border: Border.all(color: Color(0xffB06544), width: 1),
                                 borderRadius: BorderRadius.circular(17),
-                                color: brown,
+                                color: Color(0xffB06544),
                               ),
                               child: Row(
                                 mainAxisAlignment:
@@ -344,9 +336,8 @@ class _TafsirSearchState extends State<TafsirSearch> {
                             Text(
                               'إلى أية رقم',
                               style: TextStyle(
-                                color: dialgtext,
+                                color: Color(0xff191818),
                                 fontSize: 16,
-                                fontFamily: 'Sukar-reg',
                               ),
                             ),
                             Container(
@@ -354,9 +345,9 @@ class _TafsirSearchState extends State<TafsirSearch> {
                               height: 32,
                               width: 93,
                               decoration: BoxDecoration(
-                                border: Border.all(color: brown, width: 1),
+                                border: Border.all(color: Color(0xffB06544), width: 1),
                                 borderRadius: BorderRadius.circular(17),
-                                color: brown,
+                                color: Color(0xffB06544),
                               ),
                               child: Row(
                                 mainAxisAlignment:
@@ -415,7 +406,7 @@ class _TafsirSearchState extends State<TafsirSearch> {
                           width: 120,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(17),
-                            color: brown,
+                            color: Color(0xffB06544),
                           ),
                           child: Center(
                             child: Text(
@@ -423,7 +414,6 @@ class _TafsirSearchState extends State<TafsirSearch> {
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 16,
-                                fontFamily: 'Sukar-bold',
                               ),
                             ),
                           ),
@@ -438,7 +428,7 @@ class _TafsirSearchState extends State<TafsirSearch> {
                   child: IconButton(
                       icon: Icon(
                         Icons.clear,
-                        color: brown,
+                        color: Color(0xffB06544),
                         size: 30,
                       ),
                       onPressed: () {

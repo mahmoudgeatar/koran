@@ -13,7 +13,7 @@ class _DrawMoshafState extends State<DrawMoshaf> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: buttoncolor,
+      backgroundColor: Color(0xffF9F6F1),
       body: Stack(alignment: Alignment.topCenter, children: <Widget>[
         Positioned(
           child: SvgPicture.asset(
@@ -48,7 +48,7 @@ class _DrawMoshafState extends State<DrawMoshaf> {
               style: TextStyle(
                 fontSize: 22,
                 fontFamily: 'Sukar-black',
-                color: teal,
+                color: Color(0xff4EA1B5),
               ),
             ),
             SizedBox(height: MediaQuery.of(context).size.height * .02),
@@ -97,7 +97,7 @@ class _DrawMoshafState extends State<DrawMoshaf> {
                                 'مصحف المدينة الرئيسي',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                  color: dialgtext,
+                                  color: Color(0xff191818),
                                   fontSize: 15,
                                   fontFamily: 'Sukar-bold',
                                 ),

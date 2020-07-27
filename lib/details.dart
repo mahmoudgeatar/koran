@@ -67,8 +67,7 @@ class _DetailsState extends State<Details> {
                       'سورة البقرة - الجزء الأول',
                       style: TextStyle(
                         fontSize: 21,
-                        fontFamily: 'dt',
-                        color: brown,
+                        color: Color(0xffB06544),
                       ),
                     ),
                   ),
@@ -136,11 +135,11 @@ class _DetailsState extends State<Details> {
                       width: 78,
                       height: 36,
                       decoration: BoxDecoration(
-                          color: buttoncolor,
+                          color: Color(0xffF9F6F1),
                           borderRadius: BorderRadius.circular(25),
                           boxShadow: [
                             BoxShadow(
-                              color: devider,
+                              color: Color(0xffBFBFBF),
                               blurRadius: 6,
                               offset: Offset(0, 3),
                             ),
@@ -149,8 +148,7 @@ class _DetailsState extends State<Details> {
                         child: Text(
                           '3',
                           style: TextStyle(
-                            color: brown,
-                            fontFamily: 'Sukar-bold',
+                            color: Color(0xffB06544),
                             fontSize: 16,
                           ),
                         ),
@@ -166,11 +164,11 @@ class _DetailsState extends State<Details> {
                       height: 50,
                       padding: EdgeInsets.all(10),
                       decoration: BoxDecoration(
-                          color: buttoncolor,
+                          color: Color(0xffF9F6F1),
                           borderRadius: BorderRadius.circular(50),
                           boxShadow: [
                             BoxShadow(
-                              color: devider,
+                              color: Color(0xffBFBFBF),
                               blurRadius: 6,
                               offset: Offset(0, 3),
                             ),
@@ -219,9 +217,8 @@ class _DetailsState extends State<Details> {
                       Text(
                         'الرجاء إختيار رقم الصفحة',
                         style: TextStyle(
-                          color: dialgtext,
+                          color: Color(0xff191818),
                           fontSize: 16,
-                          fontFamily: 'Sukar-bold',
                         ),
                       ),
                       Padding(
@@ -232,9 +229,8 @@ class _DetailsState extends State<Details> {
                             Text(
                               'رقم الصفحة',
                               style: TextStyle(
-                                color: dialgtext,
+                                color: Color(0xff191818),
                                 fontSize: 16,
-                                fontFamily: 'Sukar-reg',
                               ),
                             ),
                             Container(
@@ -242,9 +238,9 @@ class _DetailsState extends State<Details> {
                               height: 32,
                               width: 93,
                               decoration: BoxDecoration(
-                                border: Border.all(color: brown, width: 1),
+                                border: Border.all(color: Color(0xffB06544), width: 1),
                                 borderRadius: BorderRadius.circular(17),
-                                color: brown,
+                                color: Color(0xffB06544),
                               ),
                               child: Row(
                                 mainAxisAlignment:
@@ -303,7 +299,7 @@ class _DetailsState extends State<Details> {
                           width: 120,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(17),
-                            color: brown,
+                            color: Color(0xffB06544),
                           ),
                           child: Center(
                             child: Text(
@@ -311,7 +307,6 @@ class _DetailsState extends State<Details> {
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 16,
-                                fontFamily: 'Sukar-bold',
                               ),
                             ),
                           ),
@@ -326,7 +321,7 @@ class _DetailsState extends State<Details> {
                   child: IconButton(
                       icon: Icon(
                         Icons.clear,
-                        color: brown,
+                        color: Color(0xffB06544),
                         size: 30,
                       ),
                       onPressed: () {
@@ -364,7 +359,7 @@ class _DetailsState extends State<Details> {
                             padding: EdgeInsets.fromLTRB(10, 6, 16, 0),
                             width: MediaQuery.of(context).size.width * .55,
                             decoration: BoxDecoration(
-                              color: buttoncolor,
+                              color: Color(0xffF9F6F1),
                               borderRadius: BorderRadius.circular(10),
                             ),
                             child: Column(
@@ -476,8 +471,7 @@ class _DetailsState extends State<Details> {
                                                     mireDilagString[index],
                                                     style: TextStyle(
                                                       fontSize: 14,
-                                                      fontFamily: 'Sukar-bold',
-                                                      color: dialgtext,
+                                                      color: Color(0xff191818),
                                                     ),
                                                   ),
                                                 ),
@@ -485,7 +479,7 @@ class _DetailsState extends State<Details> {
                                             ),
                                             (index == 7)
                                                 ? Container()
-                                                : Divider(color: devider),
+                                                : Divider(color: Color(0xffBFBFBF)),
                                           ],
                                         ),
                                       );
@@ -555,8 +549,7 @@ class _DetailsState extends State<Details> {
                                     'مشاركة',
                                     style: TextStyle(
                                       fontSize: 14,
-                                      fontFamily: 'Sukar-bold',
-                                      color: dialgtext,
+                                      color: Color(0xff191818),
                                     ),
                                   ),
                                 ],
@@ -604,8 +597,7 @@ class _DetailsState extends State<Details> {
                   title,
                   style: TextStyle(
                     fontSize: 14,
-                    fontFamily: 'Sukar-bold',
-                    color: dialgtext,
+                    color: Color(0xff191818),
                   ),
                 ),
               ],
@@ -615,7 +607,7 @@ class _DetailsState extends State<Details> {
                 return navigate;
               }));
             }),
-        Divider(color: devider),
+        Divider(color: Color(0xffBFBFBF)),
       ],
     );
   }

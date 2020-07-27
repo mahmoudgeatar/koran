@@ -25,8 +25,8 @@ class _SearchState extends State<Search> {
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(
-            color: scafould,
-            border: Border.all(color: teal, width: 1.5),
+            color: Color(0xffFBFAF8),
+            border: Border.all(color: Color(0xff4EA1B5), width: 1.5),
             borderRadius: BorderRadius.circular(25)),
         height: 40,
         width: MediaQuery.of(context).size.width * .84,
@@ -58,8 +58,7 @@ class _SearchState extends State<Search> {
               hintText: "إبحث عن وظيفة",
               hintStyle: TextStyle(
                 fontSize: 14,
-                color: textGray,
-                fontFamily: 'sukar-bold',
+                color: Color(0xff707070),
               ),
               focusedBorder: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(25),

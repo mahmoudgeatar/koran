@@ -15,7 +15,7 @@ class _TranslateState extends State<Translate> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: scafould,
+      backgroundColor: Color(0xffFBFAF8),
       body: Stack(
         alignment: Alignment.topCenter,
         children: <Widget>[
@@ -77,8 +77,7 @@ class _TranslateState extends State<Translate> {
                 'Translation',
                 style: TextStyle(
                   fontSize: 23,
-                  fontFamily: 'Sukar-black',
-                  color: teal,
+                  color:  Color(0xff4EA1B5),
                 ),
               ),
               GestureDetector(
@@ -94,8 +93,7 @@ class _TranslateState extends State<Translate> {
                       'AL -Baqrah',
                       style: TextStyle(
                         fontSize: 20,
-                        fontFamily: 'cairo-reg',
-                        color: brown,
+                        color: Color(0xffB06544),
                       ),
                     ),
                     SizedBox(width: MediaQuery.of(context).size.width * .02),
@@ -118,9 +116,8 @@ class _TranslateState extends State<Translate> {
                         title: Text(
                           'إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ',
                           style: TextStyle(
-                            color: dialgtext,
+                            color: Color(0xff191818),
                             fontSize: 24,
-                            fontFamily: 'quran',
                             fontWeight: FontWeight.bold,
                           ),
                         ),
@@ -130,9 +127,8 @@ class _TranslateState extends State<Translate> {
                             'Indeed, those who disbelieve - it is all the same for them whether you warn them or do not warn them - they will not believe',
                             textAlign: TextAlign.left,
                             style: TextStyle(
-                              fontFamily: 'cairo-reg',
                               fontSize: 16,
-                              color: dialgtext,
+                              color: Color(0xff191818),
                             ),
                           ),
                         ),

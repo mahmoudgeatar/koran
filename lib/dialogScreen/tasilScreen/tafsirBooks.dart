@@ -40,7 +40,7 @@ class _TafsirBookState extends State<TafsirBook> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: buttoncolor,
+      backgroundColor:  Color(0xffF9F6F1),
       body: Stack(
         alignment: Alignment.topCenter,
         children: <Widget>[
@@ -73,7 +73,7 @@ class _TafsirBookState extends State<TafsirBook> {
               Text(
                 'كتب التفسير',
                 style: TextStyle(
-                    fontSize: 22, fontFamily: 'Sukar-black', color: teal),
+                    fontSize: 22, color: Color(0xff4EA1B5)),
               ),
               //search bar
               Container(
@@ -81,7 +81,7 @@ class _TafsirBookState extends State<TafsirBook> {
                 child: Container(
                   decoration: BoxDecoration(
                       color: Colors.transparent,
-                      border: Border.all(color: teal, width: 1),
+                      border: Border.all(color: Color(0xff4EA1B5), width: 1),
                       borderRadius: BorderRadius.circular(30)),
                   height: 40,
                   width: MediaQuery.of(context).size.width * .6,
@@ -94,7 +94,7 @@ class _TafsirBookState extends State<TafsirBook> {
                     },
                     style: TextStyle(
                       fontSize: 14,
-                      color: textGray,
+                      color: Color(0xff707070),
                     ),
                     decoration: InputDecoration(
                         suffixIcon: !selectCountry.onChange
@@ -118,7 +118,7 @@ class _TafsirBookState extends State<TafsirBook> {
                                 },
                                 child: Icon(
                                   Icons.clear,
-                                  color: teal,
+                                  color: Color(0xff4EA1B5),
                                   size: 25,
                                 ),
                               ),
@@ -127,20 +127,19 @@ class _TafsirBookState extends State<TafsirBook> {
                         hintText: "إبحث عن كتاب تفسير",
                         hintStyle: TextStyle(
                           fontSize: 14,
-                          color: textGray,
-                          fontFamily: 'sukar-bold',
+                          color: Color(0xff707070),
                         ),
                         focusedBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(30),
-                          borderSide: BorderSide(color: teal, width: 1.5),
+                          borderSide: BorderSide(color: Color(0xff4EA1B5), width: 1.5),
                         ),
                         enabledBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(30),
-                          borderSide: BorderSide(color: teal, width: 1.5),
+                          borderSide: BorderSide(color: Color(0xff4EA1B5), width: 1.5),
                         ),
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(35),
-                          borderSide: BorderSide(color: teal, width: 1.5),
+                          borderSide: BorderSide(color: Color(0xff4EA1B5), width: 1.5),
                         )),
                   ),
                 ),
@@ -178,9 +177,8 @@ class _TafsirBookState extends State<TafsirBook> {
                                         child: Text(
                                           booksName[index],
                                           style: TextStyle(
-                                            color: dialgtext,
+                                            color: Color(0xff191818),
                                             fontSize: 14,
-                                            fontFamily: 'Sukar-reg',
                                             fontWeight: FontWeight.w600,
                                           ),
                                         ),
@@ -217,7 +215,7 @@ class _TafsirBookState extends State<TafsirBook> {
                           (booksName.length == index + 1)
                               ? Container()
                               : Divider(
-                                  color: devider,
+                                  color: Color(0xffBFBFBF),
                                 ),
                         ],
                       );

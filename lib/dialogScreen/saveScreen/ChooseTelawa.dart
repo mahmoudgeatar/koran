@@ -66,8 +66,7 @@ class _ChooseTelawaState extends State<ChooseTelawa> {
                 'تصفية نوع القراءة',
                 style: TextStyle(
                   fontSize: 23,
-                  fontFamily: 'Sukar-black',
-                  color: teal,
+                  color: Color(0xff4EA1B5),
                 ),
               ),
               SizedBox(height: MediaQuery.of(context).size.height * .01),
@@ -79,7 +78,7 @@ class _ChooseTelawaState extends State<ChooseTelawa> {
                     child: Container(
                       decoration: BoxDecoration(
                           color: Colors.transparent,
-                          border: Border.all(color: teal, width: 1),
+                          border: Border.all(color: Color(0xff4EA1B5), width: 1),
                           borderRadius: BorderRadius.circular(30)),
                       height: 40,
                       width: MediaQuery.of(context).size.width * .6,
@@ -92,7 +91,7 @@ class _ChooseTelawaState extends State<ChooseTelawa> {
                         },
                         style: TextStyle(
                           fontSize: 14,
-                          color: textGray,
+                          color: Color(0xff707070),
                         ),
                         decoration: InputDecoration(
                             suffixIcon: !selectCountry.onChange
@@ -117,7 +116,7 @@ class _ChooseTelawaState extends State<ChooseTelawa> {
                                     },
                                     child: Icon(
                                       Icons.clear,
-                                      color: teal,
+                                      color: Color(0xff4EA1B5),
                                       size: 25,
                                     ),
                                   ),
@@ -126,20 +125,19 @@ class _ChooseTelawaState extends State<ChooseTelawa> {
                             hintText: "إبحث عن قراءة",
                             hintStyle: TextStyle(
                               fontSize: 14,
-                              color: textGray,
-                              fontFamily: 'sukar-bold',
+                              color: Color(0xff707070),
                             ),
                             focusedBorder: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(30),
-                              borderSide: BorderSide(color: teal, width: 1),
+                              borderSide: BorderSide(color: Color(0xff4EA1B5), width: 1),
                             ),
                             enabledBorder: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(30),
-                              borderSide: BorderSide(color: teal, width: 1),
+                              borderSide: BorderSide(color: Color(0xff4EA1B5), width: 1),
                             ),
                             border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(35),
-                              borderSide: BorderSide(color: teal, width: 1),
+                              borderSide: BorderSide(color: Color(0xff4EA1B5), width: 1),
                             )),
                       ),
                     ),
@@ -172,25 +170,22 @@ class _ChooseTelawaState extends State<ChooseTelawa> {
                                                 TextSpan(
                                                   text: '\nحفص',
                                                   style: TextStyle(
-                                                    fontFamily: 'samt',
                                                     fontSize: 16,
-                                                    color: teal,
+                                                    color: Color(0xff4EA1B5),
                                                   ),
                                                 ),
                                                 TextSpan(
                                                   text: '\nبن',
                                                   style: TextStyle(
-                                                    fontFamily: 'samt',
                                                     fontSize: 16,
-                                                    color: brown,
+                                                    color: Color(0xffB06544),
                                                   ),
                                                 ),
                                                 TextSpan(
                                                   text: '\nعاصم',
                                                   style: TextStyle(
-                                                    fontFamily: 'samt',
                                                     fontSize: 16,
-                                                    color: brown,
+                                                    color: Color(0xffB06544),
                                                   ),
                                                 ),
                                               ],
@@ -200,9 +195,8 @@ class _ChooseTelawaState extends State<ChooseTelawa> {
                                           Text(
                                             'حفص بن عاصم',
                                             style: TextStyle(
-                                              fontFamily: 'Sukar-bold',
                                               fontSize: 16,
-                                              color: brown,
+                                              color: Color(0xffB06544),
                                             ),
                                           ),
                                         ],

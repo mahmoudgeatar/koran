@@ -51,8 +51,7 @@ class _settingState extends State<setting> {
                 'الإعدادات',
                 style: TextStyle(
                   fontSize: 22,
-                  fontFamily: 'Sukar-black',
-                  color: teal,
+                  color: Color(0xff4EA1B5),
                 ),
               ),
               SizedBox(height: MediaQuery.of(context).size.height * .15),
@@ -65,8 +64,7 @@ class _settingState extends State<setting> {
                       'إختر اللون',
                       style: TextStyle(
                         fontSize: 16,
-                        fontFamily: 'Sukar-bold',
-                        color: dialgtext,
+                        color: Color(0xff191818),
                       ),
                     ),
                     SizedBox(
@@ -184,8 +182,7 @@ class _settingState extends State<setting> {
                     Text(
                       'تشغيل الوضع الليلي',
                       style: TextStyle(
-                        color: dialgtext,
-                        fontFamily: 'Sukar-bold',
+                        color: Color(0xff191818),
                         fontSize: 16,
                       ),
                     ),
@@ -195,7 +192,7 @@ class _settingState extends State<setting> {
                       padding: 2.0,
                       toggleSize: 15.0,
                       borderRadius: 10.0,
-                      activeColor: brown,
+                      activeColor: Color(0xffB06544),
                       value: isToggled,
                       onToggle: (value) {
                         setState(() {
@@ -215,8 +212,7 @@ class _settingState extends State<setting> {
                     Text(
                       'الأشعارات',
                       style: TextStyle(
-                        color: dialgtext,
-                        fontFamily: 'Sukar-bold',
+                        color: Color(0xff191818),
                         fontSize: 16,
                       ),
                     ),
@@ -226,7 +222,7 @@ class _settingState extends State<setting> {
                       padding: 2.0,
                       toggleSize: 15.0,
                       borderRadius: 10.0,
-                      activeColor: brown,
+                      activeColor: Color(0xffB06544),
                       value: isToggled,
                       onToggle: (value) {
                         setState(() {
@@ -253,14 +249,13 @@ class _settingState extends State<setting> {
                       width: 120,
                       height: 34,
                       decoration: BoxDecoration(
-                        color: brown,
+                        color: Color(0xffB06544),
                       ),
                       child: Center(
                         child: Text(
                           'تم',
                           style: TextStyle(
                             color: Colors.white,
-                            fontFamily: 'Sukar-bold',
                             fontSize: 16,
                           ),
                         ),

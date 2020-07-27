@@ -68,8 +68,7 @@ class _ChooseShikState extends State<ChooseShik> {
                 'أختر قارئ',
                 style: TextStyle(
                   fontSize: 23,
-                  fontFamily: 'Sukar-black',
-                  color: teal,
+                  color: Color(0xff4EA1B5),
                 ),
               ),
               SizedBox(height: MediaQuery.of(context).size.height * .08),
@@ -81,7 +80,7 @@ class _ChooseShikState extends State<ChooseShik> {
                     child: Container(
                       decoration: BoxDecoration(
                           color: Colors.transparent,
-                          border: Border.all(color: teal, width: 1.5),
+                          border: Border.all(color: Color(0xff4EA1B5), width: 1.5),
                           borderRadius: BorderRadius.circular(30)),
                       height: 40,
                       width: MediaQuery.of(context).size.width * .8,
@@ -94,7 +93,7 @@ class _ChooseShikState extends State<ChooseShik> {
                         },
                         style: TextStyle(
                           fontSize: 14,
-                          color: textGray,
+                          color: Color(0xff707070),
                         ),
                         decoration: InputDecoration(
                             suffixIcon: !selectCountry.onChange
@@ -119,7 +118,7 @@ class _ChooseShikState extends State<ChooseShik> {
                                     },
                                     child: Icon(
                                       Icons.clear,
-                                      color: teal,
+                                      color: Color(0xff4EA1B5),
                                       size: 25,
                                     ),
                                   ),
@@ -128,20 +127,19 @@ class _ChooseShikState extends State<ChooseShik> {
                             hintText: "بحث عن قارئ",
                             hintStyle: TextStyle(
                               fontSize: 14,
-                              color: textGray,
-                              fontFamily: 'sukar-bold',
+                              color: Color(0xff707070),
                             ),
                             focusedBorder: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(30),
-                              borderSide: BorderSide(color: teal, width: 1),
+                              borderSide: BorderSide(color: Color(0xff4EA1B5), width: 1),
                             ),
                             enabledBorder: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(30),
-                              borderSide: BorderSide(color: teal, width: 1),
+                              borderSide: BorderSide(color: Color(0xff4EA1B5), width: 1),
                             ),
                             border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(35),
-                              borderSide: BorderSide(color: teal, width: 1),
+                              borderSide: BorderSide(color: Color(0xff4EA1B5), width: 1),
                             )),
                       ),
                     ),
@@ -183,7 +181,7 @@ class _ChooseShikState extends State<ChooseShik> {
                                       padding: const EdgeInsets.symmetric(
                                           horizontal: 12),
                                       child: Divider(
-                                        color: devider,
+                                        color: Color(0xffBFBFBF),
                                       ),
                                     ),
                             ],
@@ -208,13 +206,12 @@ class _ChooseShikState extends State<ChooseShik> {
       },
       trailing: Icon(
         Icons.keyboard_arrow_down,
-        color: brown,
+        color: Color(0xffB06544),
       ),
       title: Text(
         'عبدالباسط عبد الصمد',
         style: TextStyle(
-          color: dialgtext,
-          fontFamily: 'Sukar-bold',
+          color: Color(0xff191818),
           fontSize: 14,
         ),
       ),
@@ -226,7 +223,7 @@ class _ChooseShikState extends State<ChooseShik> {
       ),
       children: <Widget>[
         Container(
-          color: buttoncolor,
+          color: Color(0xffF9F6F1),
           child: ListView.builder(
               shrinkWrap: true,
               itemCount: 3,
@@ -242,18 +239,16 @@ class _ChooseShikState extends State<ChooseShik> {
                             Text(
                               'حفص \nبن عاصم',
                               style: TextStyle(
-                                fontFamily: 'samt',
                                 fontSize: 16,
-                                color: brown,
+                                color: Color(0xffB06544),
                               ),
                             ),
                             SizedBox(width: 8),
                             Text(
                               'حفص بن عاصم',
                               style: TextStyle(
-                                fontFamily: 'Sukar-bold',
                                 fontSize: 16,
-                                color: brown,
+                                color: Color(0xffB06544),
                               ),
                             ),
                           ],

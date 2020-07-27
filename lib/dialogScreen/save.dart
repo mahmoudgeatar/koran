@@ -58,8 +58,7 @@ class _SaveState extends State<Save> {
                       'سورة البقرة - الجزء الأول',
                       style: TextStyle(
                         fontSize: 21,
-                        fontFamily: 'dt',
-                        color: brown,
+                        color: Color(0xffB06544),
                       ),
                     ),
                   ),
@@ -140,8 +139,7 @@ class _SaveState extends State<Save> {
           Text(
             'القارئ',
             style: TextStyle(
-              color: dialgtext,
-              fontFamily: 'Sukar-bold',
+              color: Color(0xff191818),
               fontSize: 15,
             ),
           ),
@@ -153,7 +151,7 @@ class _SaveState extends State<Save> {
             },
             child: Container(
               decoration: BoxDecoration(
-                color: buttoncolor,
+                color: Color(0xffF9F6F1),
                 borderRadius: BorderRadius.circular(9),
               ),
               child: Center(
@@ -162,8 +160,7 @@ class _SaveState extends State<Save> {
                     Text(
                       'عبد الباسط عبد ال...',
                       style: TextStyle(
-                        color: brown,
-                        fontFamily: 'Sukar-bold',
+                        color: Color(0xffB06544),
                         fontSize: 14,
                       ),
                     ),
@@ -184,15 +181,14 @@ class _SaveState extends State<Save> {
             },
             child: Container(
               decoration: BoxDecoration(
-                color: buttoncolor,
+                color: Color(0xffF9F6F1),
                 borderRadius: BorderRadius.circular(9),
               ),
               child: Center(
                 child: Text(
                   'التكرار',
                   style: TextStyle(
-                    color: brown,
-                    fontFamily: 'Sukar-bold',
+                    color: Color(0xffB06544),
                     fontSize: 14,
                   ),
                 ),
@@ -204,7 +200,7 @@ class _SaveState extends State<Save> {
             width: 48,
             height: 48,
             decoration: BoxDecoration(
-              color: brown,
+              color: Color(0xffB06544),
               borderRadius: BorderRadius.circular(48),
             ),
             child: Center(
@@ -278,8 +274,7 @@ class _SaveState extends State<Save> {
                                     'مشاركة',
                                     style: TextStyle(
                                       fontSize: 14,
-                                      fontFamily: 'Sukar-bold',
-                                      color: dialgtext,
+                                      color: Color(0xff191818),
                                     ),
                                   ),
                                 ],
@@ -327,8 +322,7 @@ class _SaveState extends State<Save> {
                   title,
                   style: TextStyle(
                     fontSize: 14,
-                    fontFamily: 'Sukar-bold',
-                    color: dialgtext,
+                    color: Color(0xff191818),
                   ),
                 ),
               ],
@@ -338,7 +332,7 @@ class _SaveState extends State<Save> {
                 return navigate;
               }));
             }),
-        Divider(color: devider),
+        Divider(color: Color(0xffBFBFBF)),
       ],
     );
   }
@@ -376,9 +370,8 @@ class _SaveState extends State<Save> {
                             Text(
                               'بدء من سورة',
                               style: TextStyle(
-                                color: dialgtext,
+                                color: Color(0xff191818),
                                 fontSize: 14,
-                                fontFamily: "Sukar-reg",
                                 fontWeight: FontWeight.w500,
                               ),
                             ),
@@ -397,7 +390,7 @@ class _SaveState extends State<Save> {
                                 height: 37,
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(30),
-                                  border: Border.all(color: devider, width: 2),
+                                  border: Border.all(color: Color(0xffBFBFBF), width: 2),
                                 ),
                                 child: SizedBox(
                                   child: Image.asset(
@@ -417,9 +410,8 @@ class _SaveState extends State<Save> {
                             Text(
                               'الانتهاء بسورة',
                               style: TextStyle(
-                                color: dialgtext,
+                                color: Color(0xff191818),
                                 fontSize: 14,
-                                fontFamily: "Sukar-reg",
                                 fontWeight: FontWeight.w500,
                               ),
                             ),
@@ -438,7 +430,7 @@ class _SaveState extends State<Save> {
                                 height: 37,
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(30),
-                                  border: Border.all(color: devider, width: 2),
+                                  border: Border.all(color: Color(0xffBFBFBF), width: 2),
                                 ),
                                 child: SizedBox(
                                   child: Image.asset(
@@ -459,9 +451,8 @@ class _SaveState extends State<Save> {
                             Text(
                               'تكرار الآية',
                               style: TextStyle(
-                                color: dialgtext,
+                                color: Color(0xff191818),
                                 fontSize: 16,
-                                fontFamily: 'Sukar-reg',
                               ),
                             ),
                             Container(
@@ -469,9 +460,9 @@ class _SaveState extends State<Save> {
                               height: 32,
                               width: 93,
                               decoration: BoxDecoration(
-                                border: Border.all(color: brown, width: 1),
+                                border: Border.all(color: Color(0xffB06544), width: 1),
                                 borderRadius: BorderRadius.circular(17),
-                                color: brown,
+                                color: Color(0xffB06544),
                               ),
                               child: Row(
                                 mainAxisAlignment:
@@ -525,9 +516,8 @@ class _SaveState extends State<Save> {
                             Text(
                               'تكرار الفقرة',
                               style: TextStyle(
-                                color: dialgtext,
+                                color: Color(0xff191818),
                                 fontSize: 16,
-                                fontFamily: 'Sukar-reg',
                               ),
                             ),
                             Container(
@@ -535,9 +525,9 @@ class _SaveState extends State<Save> {
                               height: 32,
                               width: 93,
                               decoration: BoxDecoration(
-                                border: Border.all(color: brown, width: 1),
+                                border: Border.all(color: Color(0xffB06544), width: 1),
                                 borderRadius: BorderRadius.circular(17),
-                                color: brown,
+                                color: Color(0xffB06544),
                               ),
                               child: Row(
                                 mainAxisAlignment:
@@ -597,7 +587,7 @@ class _SaveState extends State<Save> {
                           width: 120,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(17),
-                            color: brown,
+                            color: Color(0xffB06544),
                           ),
                           child: Center(
                             child: Text(
@@ -605,7 +595,6 @@ class _SaveState extends State<Save> {
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 16,
-                                fontFamily: 'Sukar-bold',
                               ),
                             ),
                           ),
@@ -620,7 +609,7 @@ class _SaveState extends State<Save> {
                   child: IconButton(
                       icon: Icon(
                         Icons.clear,
-                        color: brown,
+                        color: Color(0xffB06544),
                         size: 30,
                       ),
                       onPressed: () {

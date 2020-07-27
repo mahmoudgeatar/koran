@@ -52,8 +52,7 @@ class _MarksState extends State<Marks> {
                 'العلامات المرجعية',
                 style: TextStyle(
                   fontSize: 23,
-                  fontFamily: 'Sukar-black',
-                  color: teal,
+                  color: Color(0xff4EA1B5),
                 ),
               ),
               SizedBox(height: MediaQuery.of(context).size.height * .1),

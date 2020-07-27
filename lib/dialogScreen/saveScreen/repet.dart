@@ -27,8 +27,7 @@ class _RepetState extends State<Repet> {
                       'سورة البقرة - الجزء الأول',
                       style: TextStyle(
                         fontSize: 21,
-                        fontFamily: 'dt',
-                        color: brown,
+                        color: Color(0xffB06544),
                       ),
                     ),
                   ),
@@ -99,14 +98,13 @@ class _RepetState extends State<Repet> {
           Text(
             'القارئ',
             style: TextStyle(
-              color: dialgtext,
-              fontFamily: 'Sukar-bold',
+              color:  Color(0xff191818),
               fontSize: 15,
             ),
           ),
           Container(
             decoration: BoxDecoration(
-              color: buttoncolor,
+              color:  Color(0xffF9F6F1),
               borderRadius: BorderRadius.circular(9),
             ),
             child: Center(
@@ -115,8 +113,7 @@ class _RepetState extends State<Repet> {
                   Text(
                     'عبد الباسط عبد ال...',
                     style: TextStyle(
-                      color: brown,
-                      fontFamily: 'Sukar-bold',
+                      color: Color(0xffB06544),
                       fontSize: 14,
                     ),
                   ),
@@ -137,15 +134,14 @@ class _RepetState extends State<Repet> {
               children: <Widget>[
                 Container(
                   decoration: BoxDecoration(
-                    color: buttoncolor,
+                    color:  Color(0xffF9F6F1),
                     borderRadius: BorderRadius.circular(9),
                   ),
                   child: Center(
                     child: Text(
                       'التكرار',
                       style: TextStyle(
-                        color: brown,
-                        fontFamily: 'Sukar-bold',
+                        color: Color(0xffB06544),
                         fontSize: 14,
                       ),
                     ),
@@ -156,7 +152,7 @@ class _RepetState extends State<Repet> {
                   width: 8,
                   height: 8,
                   decoration: BoxDecoration(
-                    color: teal,
+                    color: Color(0xff4EA1B5),
                     borderRadius: BorderRadius.circular(12),
                   ),
                 ),
@@ -167,7 +163,7 @@ class _RepetState extends State<Repet> {
             width: 48,
             height: 48,
             decoration: BoxDecoration(
-              color: brown,
+              color: Color(0xffB06544),
               borderRadius: BorderRadius.circular(48),
             ),
             child: Center(

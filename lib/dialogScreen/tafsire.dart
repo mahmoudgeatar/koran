@@ -14,7 +14,7 @@ class _TafsireState extends State<Tafsire> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: scafould,
+      backgroundColor: Color(0xffFBFAF8),
       body: Stack(
         alignment: Alignment.topCenter,
         children: <Widget>[
@@ -73,8 +73,7 @@ class _TafsireState extends State<Tafsire> {
                 'تفسير',
                 style: TextStyle(
                   fontSize: 23,
-                  fontFamily: 'Sukar-black',
-                  color: teal,
+                  color:  Color(0xff4EA1B5),
                 ),
               ),
               GestureDetector(
@@ -90,8 +89,7 @@ class _TafsireState extends State<Tafsire> {
                       'سورة البقرة',
                       style: TextStyle(
                         fontSize: 21,
-                        fontFamily: 'dt',
-                        color: brown,
+                        color: Color(0xffB06544),
                       ),
                     ),
                     SizedBox(width: MediaQuery.of(context).size.width * .02),
@@ -114,9 +112,8 @@ class _TafsireState extends State<Tafsire> {
                         title: Text(
                           'إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ',
                           style: TextStyle(
-                            color: dialgtext,
+                            color: Color(0xff191818),
                             fontSize: 24,
-                            fontFamily: 'quran',
                             fontWeight: FontWeight.bold,
                           ),
                         ),
@@ -125,9 +122,8 @@ class _TafsireState extends State<Tafsire> {
                           child: Text(
                             'إن الذين كفروا كأبي جهل وأبي لهب ونحوهما سواء عليهم أأنذرتهم بتحقيق الهمزتين وإبدال الثانية ألفاً وتسهيلها وإدخال ألف بين المسهلة والأخرى وتركه «أم لم تنذرهم لا يؤمنون» لعلم الله منهم ذلك فلا تطمع في إيمانهم، والإنذار إعلام مع تخويف.',
                             style: TextStyle(
-                              fontFamily: 'cairo-reg',
                               fontSize: 14,
-                              color: dialgtext,
+                              color: Color(0xff191818),
                             ),
                           ),
                         ),

@@ -25,7 +25,7 @@ class MarkCard extends StatelessWidget {
                 topRight: Radius.circular(8),
                 topLeft: Radius.circular(8),
               ),
-              color: teal,
+              color: Color(0xff4EA1B5),
             ),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -35,7 +35,6 @@ class MarkCard extends StatelessWidget {
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 16,
-                    fontFamily: 'Sukar-reg',
                   ),
                 ),
                 Text(
@@ -43,7 +42,6 @@ class MarkCard extends StatelessWidget {
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 16,
-                    fontFamily: 'Sukar-reg',
                   ),
                 ),
               ],
@@ -55,9 +53,8 @@ class MarkCard extends StatelessWidget {
             child: Text(
               'فَلَا تَكُ فِي مِرْيَةٍ مِّمَّا يَعْبُدُ هَؤُلَاءِ مَا يَعْبُدُونَ إِلَّا كَمَا يَعْبُدُ آبَاؤُهُم مِّن قَبْلُ وَإِنَّا لَمُوَفُّوهُمْ نَصِيبَهُمْ غَيْرَ مَنقُوصٍ',
               style: TextStyle(
-                color: dialgtext,
+                color: Color(0xff191818),
                 fontSize: 21,
-                fontFamily: 'quran',
               ),
             ),
           ),
@@ -75,9 +72,8 @@ class MarkCard extends StatelessWidget {
                     Text(
                       'تلاوة',
                       style: TextStyle(
-                        color: brown,
+                        color: Color(0xffB06544),
                         fontSize: 12,
-                        fontFamily: 'Sukar-bold',
                       ),
                     ),
                     Row(
@@ -94,9 +90,8 @@ class MarkCard extends StatelessWidget {
                                 Text(
                                   '12/09/2020',
                                   style: TextStyle(
-                                    color: textGray,
+                                    color: Color(0xff707070),
                                     fontSize: 14,
-                                    fontFamily: 'Sukar-bold',
                                   ),
                                 ),
                               ],
@@ -112,9 +107,8 @@ class MarkCard extends StatelessWidget {
                                 Text(
                                   '06:30 م',
                                   style: TextStyle(
-                                    color: textGray,
+                                    color: Color(0xff707070),
                                     fontSize: 14,
-                                    fontFamily: 'Sukar-bold',
                                   ),
                                 ),
                               ],
@@ -129,10 +123,10 @@ class MarkCard extends StatelessWidget {
                   height: 30,
                   width: 75,
                   decoration: BoxDecoration(
-                    color: buttoncolor,
+                    color: Color(0xffF9F6F1),
                     borderRadius: BorderRadius.circular(11),
                     border: Border.all(
-                      color: brown,
+                      color: Color(0xffB06544),
                       width: 1,
                     ),
                   ),
@@ -140,9 +134,8 @@ class MarkCard extends StatelessWidget {
                     child: Text(
                       'إزالة العلامة',
                       style: TextStyle(
-                        color: brown,
+                        color: Color(0xffB06544),
                         fontSize: 12,
-                        fontFamily: 'Sukar-reg',
                       ),
                     ),
                   ),

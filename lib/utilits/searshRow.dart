@@ -21,8 +21,7 @@ class SearshRow extends StatelessWidget {
                   '1',
                   style: TextStyle(
                     fontSize: 14,
-                    fontFamily: 'kf',
-                    color: brown,
+                    color: Color(0xffB06544),
                   ),
                 ),
               ),
@@ -35,8 +34,7 @@ class SearshRow extends StatelessWidget {
                   'سورة الأعراف',
                   style: TextStyle(
                     fontSize: 20,
-                    fontFamily: 'dt',
-                    color: brown,
+                    color: Color(0xffB06544),
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -48,14 +46,13 @@ class SearshRow extends StatelessWidget {
                       '206',
                       style: TextStyle(
                           fontSize: 16,
-                          fontFamily: 'Sukar-bold',
-                          color: textGray),
+                          color: Color(0xff707070)),
                     ),
                     SizedBox(width: 4),
                     Text(
                       'أية',
                       style: TextStyle(
-                          fontSize: 14, fontFamily: 'cairo', color: textGray),
+                          fontSize: 14, color: Color(0xff707070)),
                     ),
                   ],
                 ),
@@ -65,7 +62,7 @@ class SearshRow extends StatelessWidget {
         ),
         Text(
           'الجزء الأول',
-          style: TextStyle(fontSize: 14, fontFamily: 'cairo', color: textGray),
+          style: TextStyle(fontSize: 14,  color: Color(0xff707070)),
         ),
       ],
       mainAxisAlignment: MainAxisAlignment.spaceBetween,

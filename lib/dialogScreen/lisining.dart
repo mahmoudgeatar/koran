@@ -47,7 +47,7 @@ class _ListiningState extends State<Listining> {
                   children: <Widget>[
                     Icon(
                       Icons.call_to_action,
-                      color: teal,
+                      color: Color(0xff4EA1B5),
                       size: 26,
                     ),
                     SizedBox(width: MediaQuery.of(context).size.width * .03),
@@ -96,17 +96,15 @@ class _ListiningState extends State<Listining> {
               Text(
                 'عبد الباسط عبد الصمد',
                 style: TextStyle(
-                  color: dialgtext,
+                  color: Color(0xff191818),
                   fontSize: 16,
-                  fontFamily: 'Sukar-black',
                 ),
               ),
               Text(
                 'سورة البقرة',
                 style: TextStyle(
-                  color: textGray,
+                  color: Color(0xff707070),
                   fontSize: 14,
-                  fontFamily: 'Sukar-bold',
                 ),
               ),
               Padding(
@@ -124,7 +122,7 @@ class _ListiningState extends State<Listining> {
                     width: 24,
                     height: 24,
                     decoration: BoxDecoration(
-                      color: teal,
+                      color: Color(0xff4EA1B5),
                       borderRadius: BorderRadius.circular(24),
                     ),
                     child: Center(
@@ -132,7 +130,6 @@ class _ListiningState extends State<Listining> {
                         'x1',
                         style: TextStyle(
                           fontSize: 14,
-                          fontFamily: 'Sukar-bold',
                           color: Colors.white,
                         ),
                       ),
@@ -143,7 +140,7 @@ class _ListiningState extends State<Listining> {
                     width: 36,
                     height: 36,
                     decoration: BoxDecoration(
-                      color: teal,
+                      color: Color(0xff4EA1B5),
                       borderRadius: BorderRadius.circular(36),
                     ),
                     child: Center(
@@ -160,7 +157,6 @@ class _ListiningState extends State<Listining> {
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 14,
-                              fontFamily: 'Sukar-bold',
                             ),
                           )
                         ],
@@ -172,7 +168,7 @@ class _ListiningState extends State<Listining> {
                     width: 48,
                     height: 48,
                     decoration: BoxDecoration(
-                      color: teal,
+                      color: Color(0xff4EA1B5),
                       borderRadius: BorderRadius.circular(24),
                     ),
                     child: Center(
@@ -188,7 +184,7 @@ class _ListiningState extends State<Listining> {
                     width: 36,
                     height: 36,
                     decoration: BoxDecoration(
-                      color: teal,
+                      color: Color(0xff4EA1B5),
                       borderRadius: BorderRadius.circular(36),
                     ),
                     child: Center(
@@ -205,7 +201,6 @@ class _ListiningState extends State<Listining> {
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 14,
-                              fontFamily: 'Sukar-bold',
                             ),
                           )
                         ],
@@ -217,7 +212,7 @@ class _ListiningState extends State<Listining> {
                     width: 24,
                     height: 24,
                     decoration: BoxDecoration(
-                      color: teal,
+                      color: Color(0xff4EA1B5),
                       borderRadius: BorderRadius.circular(24),
                     ),
                     child: Center(
@@ -239,17 +234,15 @@ class _ListiningState extends State<Listining> {
                     Text(
                       '49:10',
                       style: TextStyle(
-                        color: textGray,
+                        color: Color(0xff707070),
                         fontSize: 14,
-                        fontFamily: 'sukar-bold',
                       ),
                     ),
                     Text(
                       '1.52',
                       style: TextStyle(
-                        color: textGray,
+                        color: Color(0xff707070),
                         fontSize: 14,
-                        fontFamily: 'sukar-bold',
                       ),
                     ),
                   ],
@@ -262,8 +255,8 @@ class _ListiningState extends State<Listining> {
                   child: SizedBox(
                     height: 14,
                     child: Slider(
-                      inactiveColor: textGray,
-                      activeColor: teal,
+                      inactiveColor: Color(0xff707070),
+                      activeColor: Color(0xff4EA1B5),
                       value: SliderValue,
                       onChanged: (va) {
                         setState(() {
@@ -306,8 +299,7 @@ class _ListiningState extends State<Listining> {
             Text(
               'القارئ',
               style: TextStyle(
-                color: dialgtext,
-                fontFamily: 'Sukar-bold',
+                color: Color(0xff191818),
                 fontSize: 15,
               ),
             ),
@@ -319,7 +311,7 @@ class _ListiningState extends State<Listining> {
               },
               child: Container(
                 decoration: BoxDecoration(
-                  color: buttoncolor,
+                  color: Color(0xffF9F6F1),
                   borderRadius: BorderRadius.circular(9),
                 ),
                 child: Center(
@@ -328,8 +320,7 @@ class _ListiningState extends State<Listining> {
                       Text(
                         'عبد الباسط عبد ال...',
                         style: TextStyle(
-                          color: brown,
-                          fontFamily: 'Sukar-bold',
+                          color: Color(0xffB06544),
                           fontSize: 14,
                         ),
                       ),
@@ -352,7 +343,7 @@ class _ListiningState extends State<Listining> {
               },
               child: Container(
                 decoration: BoxDecoration(
-                  color: buttoncolor,
+                  color: Color(0xffF9F6F1),
                   borderRadius: BorderRadius.circular(9),
                 ),
                 child: Row(
@@ -361,8 +352,7 @@ class _ListiningState extends State<Listining> {
                       child: Text(
                         'سورة البقرة',
                         style: TextStyle(
-                          color: brown,
-                          fontFamily: 'Sukar-bold',
+                          color: Color(0xffB06544),
                           fontSize: 14,
                         ),
                       ),
@@ -437,11 +427,10 @@ class _ListiningState extends State<Listining> {
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 14,
-                                fontFamily: 'Sukar-bold',
                               ),
                             )),
                             decoration: BoxDecoration(
-                              color: brown,
+                              color: Color(0xffB06544),
                               borderRadius: BorderRadius.only(
                                 bottomRight: Radius.circular(15),
                               ),
@@ -460,7 +449,7 @@ class _ListiningState extends State<Listining> {
                           child: Container(
                             height: 53,
                             decoration: BoxDecoration(
-                              color: devider,
+                              color: Color(0xffBFBFBF),
                               borderRadius: BorderRadius.only(
                                 bottomLeft: Radius.circular(15),
                               ),
@@ -471,7 +460,6 @@ class _ListiningState extends State<Listining> {
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 14,
-                                fontFamily: 'Sukar-bold',
                               ),
                             )),
                           ),

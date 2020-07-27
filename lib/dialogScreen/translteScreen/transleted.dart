@@ -59,8 +59,7 @@ class _TransletedState extends State<Transleted> {
                 '\'Search by surah / juz',
                 style: TextStyle(
                   fontSize: 22,
-                  fontFamily: 'Sukar-black',
-                  color: teal,
+                  color: Color(0xff4EA1B5),
                 ),
               ),
               //search bar
@@ -69,7 +68,7 @@ class _TransletedState extends State<Transleted> {
                 child: Container(
                   decoration: BoxDecoration(
                       color: Colors.transparent,
-                      border: Border.all(color: teal, width: 1),
+                      border: Border.all(color: Color(0xff4EA1B5), width: 1),
                       borderRadius: BorderRadius.circular(30)),
                   height: 40,
                   width: MediaQuery.of(context).size.width * .6,
@@ -82,7 +81,7 @@ class _TransletedState extends State<Transleted> {
                     },
                     style: TextStyle(
                       fontSize: 14,
-                      color: textGray,
+                      color: Color(0xff707070),
                     ),
                     decoration: InputDecoration(
                         prefixIcon: !selectCountry.onChange
@@ -106,7 +105,7 @@ class _TransletedState extends State<Transleted> {
                                 },
                                 child: Icon(
                                   Icons.clear,
-                                  color: teal,
+                                  color: Color(0xff4EA1B5),
                                   size: 25,
                                 ),
                               ),
@@ -115,20 +114,19 @@ class _TransletedState extends State<Transleted> {
                         hintText: "search",
                         hintStyle: TextStyle(
                           fontSize: 14,
-                          color: textGray,
-                          fontFamily: 'sukar-bold',
+                          color: Color(0xff707070),
                         ),
                         focusedBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(30),
-                          borderSide: BorderSide(color: teal, width: 1),
+                          borderSide: BorderSide(color: Color(0xff4EA1B5), width: 1),
                         ),
                         enabledBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(30),
-                          borderSide: BorderSide(color: teal, width: 1),
+                          borderSide: BorderSide(color: Color(0xff4EA1B5), width: 1),
                         ),
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(35),
-                          borderSide: BorderSide(color: teal, width: 1),
+                          borderSide: BorderSide(color: Color(0xff4EA1B5), width: 1),
                         )),
                   ),
                 ),
@@ -155,8 +153,7 @@ class _TransletedState extends State<Transleted> {
                                   'Juz\' 1',
                                   style: TextStyle(
                                       fontSize: 14,
-                                      fontFamily: 'cairo',
-                                      color: textGray),
+                                      color: Color(0xff707070)),
                                 ),
                                 Row(
                                   children: <Widget>[
@@ -168,8 +165,7 @@ class _TransletedState extends State<Transleted> {
                                           'Al-Baqrah',
                                           style: TextStyle(
                                             fontSize: 20,
-                                            fontFamily: 'cairo-reg',
-                                            color: brown,
+                                            color: Color(0xffB06544),
                                           ),
                                         ),
                                         Row(
@@ -178,16 +174,14 @@ class _TransletedState extends State<Transleted> {
                                               'verses',
                                               style: TextStyle(
                                                   fontSize: 14,
-                                                  fontFamily: 'cairo',
-                                                  color: textGray),
+                                                  color: Color(0xff707070)),
                                             ),
                                             SizedBox(width: 6),
                                             Text(
                                               '206',
                                               style: TextStyle(
                                                   fontSize: 16,
-                                                  fontFamily: 'Sukar-bold',
-                                                  color: textGray),
+                                                  color: Color(0xff707070)),
                                             ),
                                             SizedBox(width: 6),
                                             Image.asset('image/kaaba.png',
@@ -209,8 +203,7 @@ class _TransletedState extends State<Transleted> {
                                           '1',
                                           style: TextStyle(
                                             fontSize: 14,
-                                            fontFamily: 'kf',
-                                            color: brown,
+                                            color: Color(0xffB06544),
                                           ),
                                         ),
                                       ),
@@ -222,7 +215,7 @@ class _TransletedState extends State<Transleted> {
                               crossAxisAlignment: CrossAxisAlignment.end,
                             ),
                             Divider(
-                              color: devider,
+                              color: Color(0xffBFBFBF),
                             ),
                           ],
                         ),
@@ -264,9 +257,8 @@ class _TransletedState extends State<Transleted> {
                       Text(
                         'الرجاء إختيار رقم الآية',
                         style: TextStyle(
-                          color: dialgtext,
+                          color: Color(0xff191818),
                           fontSize: 16,
-                          fontFamily: 'Sukar-bold',
                         ),
                       ),
                       Padding(
@@ -277,9 +269,8 @@ class _TransletedState extends State<Transleted> {
                             Text(
                               'من أية رقم',
                               style: TextStyle(
-                                color: dialgtext,
+                                color: Color(0xff191818),
                                 fontSize: 16,
-                                fontFamily: 'Sukar-reg',
                               ),
                             ),
                             Container(
@@ -287,9 +278,9 @@ class _TransletedState extends State<Transleted> {
                               height: 32,
                               width: 93,
                               decoration: BoxDecoration(
-                                border: Border.all(color: brown, width: 1),
+                                border: Border.all(color: Color(0xffB06544), width: 1),
                                 borderRadius: BorderRadius.circular(17),
-                                color: brown,
+                                color: Color(0xffB06544),
                               ),
                               child: Row(
                                 mainAxisAlignment:
@@ -343,9 +334,8 @@ class _TransletedState extends State<Transleted> {
                             Text(
                               'إلى أية رقم',
                               style: TextStyle(
-                                color: dialgtext,
+                                color: Color(0xff191818),
                                 fontSize: 16,
-                                fontFamily: 'Sukar-reg',
                               ),
                             ),
                             Container(
@@ -353,9 +343,9 @@ class _TransletedState extends State<Transleted> {
                               height: 32,
                               width: 93,
                               decoration: BoxDecoration(
-                                border: Border.all(color: brown, width: 1),
+                                border: Border.all(color: Color(0xffB06544), width: 1),
                                 borderRadius: BorderRadius.circular(17),
-                                color: brown,
+                                color: Color(0xffB06544),
                               ),
                               child: Row(
                                 mainAxisAlignment:
@@ -414,7 +404,7 @@ class _TransletedState extends State<Transleted> {
                           width: 120,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(17),
-                            color: brown,
+                            color: Color(0xffB06544),
                           ),
                           child: Center(
                             child: Text(
@@ -422,7 +412,6 @@ class _TransletedState extends State<Transleted> {
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 16,
-                                fontFamily: 'Sukar-bold',
                               ),
                             ),
                           ),
@@ -437,7 +426,7 @@ class _TransletedState extends State<Transleted> {
                   child: IconButton(
                       icon: Icon(
                         Icons.clear,
-                        color: brown,
+                        color: Color(0xffB06544),
                         size: 30,
                       ),
                       onPressed: () {

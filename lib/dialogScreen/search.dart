@@ -28,7 +28,7 @@ class _SearchState extends State<Search> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: buttoncolor,
+      backgroundColor: Color(0xffF9F6F1),
       body: Stack(
         fit: StackFit.expand,
         alignment: Alignment.bottomCenter,
@@ -70,7 +70,7 @@ class _SearchState extends State<Search> {
                   Text(
                     soraSearch ? 'بحث في نصوص الآيات' : 'بحث بالسورة أو الجزء',
                     style: TextStyle(
-                        fontSize: 22, fontFamily: 'Sukar-black', color: teal),
+                        fontSize: 22,  color: Color(0xff4EA1B5)),
                   ),
                   //search bar
                   Container(
@@ -78,7 +78,7 @@ class _SearchState extends State<Search> {
                     child: Container(
                       decoration: BoxDecoration(
                           color: Colors.transparent,
-                          border: Border.all(color: teal, width: 1),
+                          border: Border.all(color: Color(0xff4EA1B5), width: 1),
                           borderRadius: BorderRadius.circular(30)),
                       height: 40,
                       width: MediaQuery.of(context).size.width * .6,
@@ -91,7 +91,7 @@ class _SearchState extends State<Search> {
                         },
                         style: TextStyle(
                           fontSize: 14,
-                          color: textGray,
+                          color: Color(0xff707070),
                         ),
                         decoration: InputDecoration(
                             suffixIcon: !selectCountry.onChange
@@ -116,7 +116,7 @@ class _SearchState extends State<Search> {
                                     },
                                     child: Icon(
                                       Icons.clear,
-                                      color: teal,
+                                      color: Color(0xff4EA1B5),
                                       size: 25,
                                     ),
                                   ),
@@ -127,20 +127,19 @@ class _SearchState extends State<Search> {
                                 : "إبحث عن سورة أو جزء",
                             hintStyle: TextStyle(
                               fontSize: 14,
-                              color: textGray,
-                              fontFamily: 'sukar-bold',
+                              color: Color(0xff707070),
                             ),
                             focusedBorder: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(30),
-                              borderSide: BorderSide(color: teal, width: 1.5),
+                              borderSide: BorderSide(color: Color(0xff4EA1B5), width: 1.5),
                             ),
                             enabledBorder: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(30),
-                              borderSide: BorderSide(color: teal, width: 1.5),
+                              borderSide: BorderSide(color: Color(0xff4EA1B5), width: 1.5),
                             ),
                             border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(35),
-                              borderSide: BorderSide(color: teal, width: 1.5),
+                              borderSide: BorderSide(color: Color(0xff4EA1B5), width: 1.5),
                             )),
                       ),
                     ),
@@ -166,15 +165,14 @@ class _SearchState extends State<Search> {
                                         child: Text(
                                           'خَتَمَ اللَّهُ عَلَى قُلُوبِهِمْ وَعَلَى سَمْعِهِمْ وَعَلَى أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ',
                                           style: TextStyle(
-                                              color: dialgtext,
+                                              color:  Color(0xff191818),
                                               fontSize: 20,
-                                              fontFamily: 'quran',
                                               fontWeight: FontWeight.bold),
                                         ),
                                       )
                                     : SearshRow(),
                                 Divider(
-                                  color: devider,
+                                  color: Color(0xffBFBFBF),
                                 ),
                               ],
                             ),
@@ -195,7 +193,7 @@ class _SearchState extends State<Search> {
                     height: 10,
                     width: 70,
                     decoration: BoxDecoration(
-                        color: soraSearch ? devider : teal,
+                        color: soraSearch ? Color(0xffBFBFBF) : Color(0xff4EA1B5),
                         borderRadius: BorderRadius.circular(8)),
                   ),
                   onTap: () {
@@ -210,7 +208,7 @@ class _SearchState extends State<Search> {
                     height: 10,
                     width: 70,
                     decoration: BoxDecoration(
-                      color: soraSearch ? teal : devider,
+                      color: soraSearch ? Color(0xff4EA1B5) : Color(0xffBFBFBF),
                       borderRadius: BorderRadius.circular(8),
                     ),
                   ),
@@ -257,9 +255,8 @@ class _SearchState extends State<Search> {
                             ? 'الرجاء إختيار رقم الآية'
                             : 'الرجاء إختيار رقم الصفحة',
                         style: TextStyle(
-                          color: dialgtext,
+                          color:  Color(0xff191818),
                           fontSize: 16,
-                          fontFamily: 'Sukar-bold',
                         ),
                       ),
                       Padding(
@@ -270,9 +267,8 @@ class _SearchState extends State<Search> {
                             Text(
                               soraSearch ? 'رقم الآية' : 'رقم الصفحة',
                               style: TextStyle(
-                                color: dialgtext,
+                                color:  Color(0xff191818),
                                 fontSize: 16,
-                                fontFamily: 'Sukar-reg',
                               ),
                             ),
                             Container(
@@ -280,9 +276,9 @@ class _SearchState extends State<Search> {
                               height: 32,
                               width: 93,
                               decoration: BoxDecoration(
-                                border: Border.all(color: brown, width: 1),
+                                border: Border.all(color: Color(0xffB06544), width: 1),
                                 borderRadius: BorderRadius.circular(17),
-                                color: brown,
+                                color: Color(0xffB06544),
                               ),
                               child: Row(
                                 mainAxisAlignment:
@@ -341,7 +337,7 @@ class _SearchState extends State<Search> {
                           width: 120,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(17),
-                            color: brown,
+                            color: Color(0xffB06544),
                           ),
                           child: Center(
                             child: Text(
@@ -349,7 +345,6 @@ class _SearchState extends State<Search> {
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 16,
-                                fontFamily: 'Sukar-bold',
                               ),
                             ),
                           ),
@@ -364,7 +359,7 @@ class _SearchState extends State<Search> {
                   child: IconButton(
                       icon: Icon(
                         Icons.clear,
-                        color: brown,
+                        color: Color(0xffB06544),
                         size: 30,
                       ),
                       onPressed: () {

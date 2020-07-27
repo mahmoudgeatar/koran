@@ -58,7 +58,7 @@ class _LanguageState extends State<Language> {
               Text(
                 'Choose Translation',
                 style: TextStyle(
-                    fontSize: 22, fontFamily: 'Sukar-black', color: teal),
+                    fontSize: 22,  color: Color(0xff4EA1B5)),
               ),
               //search bar
               Container(
@@ -66,7 +66,7 @@ class _LanguageState extends State<Language> {
                 child: Container(
                   decoration: BoxDecoration(
                     color: Colors.transparent,
-                    border: Border.all(color: teal, width: 1),
+                    border: Border.all(color: Color(0xff4EA1B5), width: 1),
                     borderRadius: BorderRadius.circular(30),
                   ),
                   height: 40,
@@ -80,7 +80,7 @@ class _LanguageState extends State<Language> {
                     },
                     style: TextStyle(
                       fontSize: 14,
-                      color: textGray,
+                      color: Color(0xff707070),
                     ),
                     decoration: InputDecoration(
                         prefixIcon: !selectCountry.onChange
@@ -104,7 +104,7 @@ class _LanguageState extends State<Language> {
                                 },
                                 child: Icon(
                                   Icons.clear,
-                                  color: teal,
+                                  color: Color(0xff4EA1B5),
                                   size: 25,
                                 ),
                               ),
@@ -113,20 +113,19 @@ class _LanguageState extends State<Language> {
                         hintText: "search for Language",
                         hintStyle: TextStyle(
                           fontSize: 14,
-                          color: textGray,
-                          fontFamily: 'sukar-bold',
+                          color: Color(0xff707070),
                         ),
                         focusedBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(30),
-                          borderSide: BorderSide(color: teal, width: 1),
+                          borderSide: BorderSide(color: Color(0xff4EA1B5), width: 1),
                         ),
                         enabledBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(30),
-                          borderSide: BorderSide(color: teal, width: 1),
+                          borderSide: BorderSide(color: Color(0xff4EA1B5), width: 1),
                         ),
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(35),
-                          borderSide: BorderSide(color: teal, width: 1),
+                          borderSide: BorderSide(color: Color(0xff4EA1B5), width: 1),
                         )),
                   ),
                 ),
@@ -169,9 +168,8 @@ class _LanguageState extends State<Language> {
                                           Text(
                                             'English',
                                             style: TextStyle(
-                                              color: dialgtext,
+                                              color: Color(0xff191818),
                                               fontSize: 14,
-                                              fontFamily: 'Sukar-reg',
                                               fontWeight: FontWeight.w600,
                                             ),
                                           ),
@@ -207,7 +205,7 @@ class _LanguageState extends State<Language> {
                           (index == 8)
                               ? Container()
                               : Divider(
-                                  color: devider,
+                                  color:  Color(0xffBFBFBF),
                                 ),
                         ],
                       );
